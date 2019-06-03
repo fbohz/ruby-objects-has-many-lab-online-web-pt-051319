@@ -12,6 +12,7 @@ class Song
   end 
   
   def artist_name 
+    #no need to add self
     artist.name if artist 
   end 
   
