@@ -23,4 +23,8 @@ class Author
     @posts << a_post
     @@all_posts << a_post
   end 
+  
+  def self.post_count
+    @@all_posts.count 
+  end 
 end 
