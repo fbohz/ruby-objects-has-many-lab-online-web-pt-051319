@@ -7,4 +7,8 @@ class Post
     @@all << title
   end 
   
+  def self.all 
+    @@all
+  end 
+  
 end 
